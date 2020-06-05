@@ -30,3 +30,5 @@ if (status['state'] != "play"):
     client.close()
     client.disconnect()
     print "[+] Done!"
+else:
+    print "[+] MPD is already playing"
